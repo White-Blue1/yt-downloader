@@ -1,0 +1,77 @@
+.body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+:root {
+    --bg-color: #0a0c11;
+    --text-color: #ffffffff;
+    --section-padding: 5rem;
+}
+
+.section {
+    padding: var(--section-padding);
+}
+
+.feature {
+    text-align: center;
+}
+
+.icon-size {
+    font-size: 1.5em;
+}
+
+.feature__image {
+    float: right;
+}
+
+.custom {
+    color: #fff;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    margin-right: 0.9em;
+    background-color: #ffa500;
+    border: none;
+}
+
+.windows-ic:hover {
+    transform: scale(1.5);
+    transition: 150ms ease-in-out;
+}
+
+.windows-2:hover {
+    transform: scale(1.3);
+    transition: 200ms ease-in-out;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #d4d4d4;
+    text-decoration: underline;
+}
+
+.downloads > .title {
+    padding: 5rem;
+}
+
+.p-content {
+    padding: 0.5rem;
+}
+
+.about {
+    padding: 6rem;
+    margin-top: 15rem;
+}
+
+.about > .title {
+    text-align: left;
+}
+
+.custom:hover {
+    background-color: #808080;
+    color: #fff;
+}
